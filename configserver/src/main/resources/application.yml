@@ -1,5 +1,7 @@
 server:
   port: 8071
+  
+
 spring:
   application:
    name: "configserver"
@@ -22,9 +24,11 @@ spring:
       username: "guest"
       password: "guest"
 
+
 encrypt:
  key: "68Av1Cf0TO2FBOZ5w5SPfWyBCuLrWAzF"
  
+
 management:
    endpoints:
      web:
